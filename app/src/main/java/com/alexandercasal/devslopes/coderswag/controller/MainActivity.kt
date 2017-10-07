@@ -1,7 +1,8 @@
-package com.alexandercasal.devslopes.coderswag
+package com.alexandercasal.devslopes.coderswag.controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import com.alexandercasal.devslopes.coderswag.R
 
 class MainActivity : AppCompatActivity() {
 

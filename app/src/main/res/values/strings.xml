@@ -3,4 +3,6 @@
     <string name="categories">Categories</string>
     <string name="category_list_item">Category List Item</string>
     <string name="products">Products</string>
+    <string name="beanie">Beanie</string>
+    <string name="dollar_filler">$18</string>
 </resources>

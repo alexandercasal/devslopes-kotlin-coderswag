@@ -2,6 +2,7 @@ package com.alexandercasal.devslopes.coderswag.controller
 
 import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Toast
 import com.alexandercasal.devslopes.coderswag.R
 import com.alexandercasal.devslopes.coderswag.adapters.CategoryAdapter
 import com.alexandercasal.devslopes.coderswag.services.DataService
@@ -20,5 +21,10 @@ class MainActivity : AppCompatActivity() {
                 DataService.categories
         )
         list_categories.adapter = adapter
+
+        list_categories.setOnItemClickListener { adapterView, view, i, l ->
+            val category = DataService.categories[i]
+            Toast.makeText(this, "You clicked on the ${category.title} cell", Toast.LENGTH_SHORT).show()
+        }
     }
 }

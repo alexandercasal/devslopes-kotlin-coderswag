@@ -57,6 +57,6 @@ class CategoryAdapter(val context: Context, val categories: List<Category>) : Ba
 
     private class ViewHolder {
         var categoryImage: ImageView? = null
-        var categoryName: TextView? = null;
+        var categoryName: TextView? = null
     }
 }
